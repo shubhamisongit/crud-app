@@ -4,8 +4,8 @@ A simple yet powerful user management system built with the **MERN Stack** (Mong
 
 # Demo
 
-![Add User Page](https://i.postimg.cc/fWGgk6wm/Screenshot-From-2024-11-11-00-12-48.png)
-![All Users Page](https://i.postimg.cc/fTQBMmKv/Screenshot-From-2024-11-11-00-18-15.png)
+![AddUserPage](https://i.postimg.cc/fWGgk6wm/Screenshot-From-2024-11-11-00-12-48.png)
+![AllUsersPage](https://i.postimg.cc/fTQBMmKv/Screenshot-From-2024-11-11-00-18-15.png)
 
 ## 🚀 Features
 
@@ -47,8 +47,9 @@ A simple yet powerful user management system built with the **MERN Stack** (Mong
 
 3. **Set up MongoDB**
 
-   - Make sure MongoDB is running on your machine.
-   - Create a .env file in the backend directory and add your MongoDB URI.
+- Make sure MongoDB is running on your machine.
+- Create a .env file in the backend directory and add your MongoDB URI.
+     
    ```bash
    MONGODB_URI=mongodb://localhost:27017/your_database_name
    PORT=5000
@@ -70,4 +71,4 @@ Contributions are welcome! Feel free to open an issue or submit a pull request.
 
 ## 🤝 Contact
 
-For any questions or feedback, please reach out via shubhamisonmain@gmail.com.
+For any questions or feedback, please reach out via shubhamisonmail@gmail.com.
