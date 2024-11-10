@@ -2,7 +2,8 @@
 
 A simple yet powerful user management system built with the **MERN Stack** (MongoDB, Express, React, and Node.js). This application lets you create, view, update, and delete user profiles with ease, providing a robust foundation for managing user data.
 
-![Demo](https://i.postimg.cc/fWGgk6wm/Screenshot-From-2024-11-11-00-12-48.png)(https://i.postimg.cc/fTQBMmKv/Screenshot-From-2024-11-11-00-18-15.png)
+![Demo](https://i.postimg.cc/fWGgk6wm/Screenshot-From-2024-11-11-00-12-48.png)
+![Demo2](https://i.postimg.cc/fTQBMmKv/Screenshot-From-2024-11-11-00-18-15.png)
 
 ## 🚀 Features
 
