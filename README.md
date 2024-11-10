@@ -1,6 +1,6 @@
 # MERN User Management App
 
-A simple yet powerful user management system built with the **MERN Stack** (MongoDB, Express, React, and Node.js). This application lets you create, view, update, and delete user profiles with ease, providing a robust foundation for managing user data.
+A simple user management system built with the **MERN Stack** (MongoDB, Express, React, and Node.js). This application lets you create, view, update, and delete user profiles with ease, providing a robust foundation for managing user data.
 
 # Demo
 
