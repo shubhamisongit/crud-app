@@ -2,8 +2,10 @@
 
 A simple yet powerful user management system built with the **MERN Stack** (MongoDB, Express, React, and Node.js). This application lets you create, view, update, and delete user profiles with ease, providing a robust foundation for managing user data.
 
-![Demo](https://i.postimg.cc/fWGgk6wm/Screenshot-From-2024-11-11-00-12-48.png)
-<!-- ![Demo2](https://i.postimg.cc/fTQBMmKv/Screenshot-From-2024-11-11-00-18-15.png) -->
+# Demo
+
+![Add User Page](https://i.postimg.cc/fWGgk6wm/Screenshot-From-2024-11-11-00-12-48.png)
+![All Users Page](https://i.postimg.cc/fTQBMmKv/Screenshot-From-2024-11-11-00-18-15.png)
 
 ## 🚀 Features
 
@@ -26,72 +28,46 @@ A simple yet powerful user management system built with the **MERN Stack** (Mong
 - [MongoDB](https://www.mongodb.com/)
 - [Git](https://git-scm.com/)
 
-🚀 Getting Started
-Follow these steps to get a local copy of the project up and running.
-
-Prerequisites
-Ensure you have Node.js and MongoDB installed on your machine.
-
-Installation
-Clone the repository
-
-bash
-Copy code
-git clone https://github.com/your-username/your-repo-name.git
-Navigate into the project directory
-
-bash
-Copy code
-cd your-repo-name
-Install dependencies for both client and server
-
-bash
-Copy code
-# Backend dependencies
-cd server
-npm install
-
-# Frontend dependencies
-cd ../client
-npm install
-Set up environment variables
-
-Create a .env file in the server directory with the following:
-
-plaintext
-Copy code
-MONGO_URI=your_mongodb_connection_string
-PORT=5000
-Run the application
-
-bash
-Copy code
-# In the root directory
-npm run dev
-The app should now be running at http://localhost:3000 for the client and http://localhost:5000 for the server.
-
-🌐 API Endpoints
-Endpoint	Method	Description
-/api/users	GET	Get all users
-/api/users	POST	Create a new user
-/api/users/:id	PUT	Update a user's details
-/api/users/:id	DELETE	Delete a user by ID
-🤝 Contributing
-Contributions, issues, and feature requests are welcome! Feel free to check the issues page.
-
-📄 License
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-Made with ❤️ by Your Name
-
-markdown
-Copy code
-
-
-
 ### Installation
 
 1. **Clone the repository**
    ```bash
    git clone https://github.com/your-username/mern-user-management.git
    cd mern-user-management
+
+2. **Install dependencies for both frontend and backend**
+   ```bash
+   # Backend
+   cd server
+   npm install
+
+   # Frontend
+   cd ../client
+   npm install
+
+3. **Set up MongoDB**
+
+   - Make sure MongoDB is running on your machine.
+   - Create a .env file in the backend directory and add your MongoDB URI.
+   ```bash
+   MONGODB_URI=mongodb://localhost:27017/your_database_name
+   PORT=5000
+
+
+4. **Run the application**
+   ```bash
+   # In the backend directory
+   npm start
+
+   # In the frontend directory
+   npm start
+   
+The backend server will start on http://localhost:5000 and the frontend on http://localhost:3000
+
+## 🤝 Contributing
+
+Contributions are welcome! Feel free to open an issue or submit a pull request.
+
+## 🤝 Contact
+
+For any questions or feedback, please reach out via shubhamisonmain@gmail.com.
