@@ -2,8 +2,8 @@
 const express = require("express"); // A lightweight web framework for building APIs and web apps.
 const dotenv = require("dotenv"); // Loads environment variables from a .env file into process.env.
 const mongoose = require("mongoose"); // A library for interacting with MongoDB, providing schema and model functionality.
-const cors = require("cors");
 const userRoute = require("./routes/userRoute"); // Importing user routes which store API endpoints.
+const cors = require("cors");
 
 // LOAD ENVIRONMENT VARIABLES
 dotenv.config(); // Load .env variables like process.env.URI and process.env.PORT before using them.
